@@ -1,24 +1,23 @@
 /* Font */
 @import url("https://fonts.googleapis.com/css2?family=Dosis&family=PT+Mono&display=swap");
 
-/* font-family: 'Dosis', sans-serif; */
-/* font-family: 'PT Mono', monospace; */
+
 
 /* Header */
 .header-section {
   font-family: "PT Mono", monospace;
   text-align: center;
-  font-size: 30px;
+  font-size: 35px;
 }
 .header-section span {
-  color: darkviolet;
+  color: rgb(0, 251, 251);
 }
 /* Main */
 .main-section {
   font-family: "Dosis", sans-serif;
 }
 body {
-  background-color: #fdffe1;
+  background-color: #b5f7f1;
 }
 
 /* Search */
@@ -36,15 +35,15 @@ body {
   font-size: 20px;
   padding: 5px;
   margin: 2px;
-  border: 2px solid gray;
+  border: 2px solid rgb(104, 129, 139);
   border-radius: 5px;
 }
 #search-button {
-  color: #5e5e5e;
+  color: #4c81ac;
   transition: 0.7s;
 }
 #search-button:hover {
-  color: white;
+  color: rgb(51, 155, 124);
   background-color: gray;
 }
 #input-field {
@@ -59,7 +58,7 @@ body {
   margin-top: 2px;
   text-align: center;
   font-weight: 600;
-  color: violet;
+  color: rgb(1, 245, 151);
 }
 #empty-search {
   display: none;
@@ -73,7 +72,7 @@ body {
   margin-top: 2px;
   text-align: center;
   font-weight: 600;
-  color: rgb(132, 0, 255);
+  color: rgb(2, 53, 112);
 }
 #books-section {
   display: grid;
@@ -82,13 +81,14 @@ body {
 .book {
   padding: 10px;
   margin: 10px;
-  background-color: #eee9df;
+  background-color: #cbf8ed;
   border-radius: 10px;
+}
+.bold-text {
+  font-weight: 600;
 }
 .book-img {
   display: flex;
   justify-content: center;
 }
-.bold-text {
-  font-weight: 600;
-}
+
